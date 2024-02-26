@@ -1,0 +1,9 @@
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.deps.json
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfoInputs.cache
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfo.cs
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.CoreCompileInputs.cache
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.pdb
