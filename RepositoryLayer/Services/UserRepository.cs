@@ -27,7 +27,7 @@ namespace RepositoryLayer.Services
             this.config = config;
         }
        
-
+        //Registeration
         public UserEntity UserRegisteration(RegisterModel model)
         {
             UserEntity entity = new UserEntity();
@@ -76,8 +76,8 @@ namespace RepositoryLayer.Services
 
         private string GenerateToken(string Email, long userId)
         {
-            SymmetricSecurityKey symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]));
-            SigningCredentials signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             var claims = new[]
             {
                 new Claim("email",Email),
@@ -87,10 +87,11 @@ namespace RepositoryLayer.Services
                 config["Jwt:Audience"],
                 claims,
                 expires: DateTime.Now.AddHours(15),
-                signingCredentials: signingCredentials);
+                signingCredentials: credentials);
 
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+
         }
     }
 }
