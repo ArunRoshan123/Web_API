@@ -13,3 +13,4 @@ C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\ManagerLayer\bin\Debug\net
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\ManagerLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.pdb
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\ManagerLayer\obj\Debug\netcoreapp3.1\ManagerLayer.csproj.AssemblyReference.cache
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\ManagerLayer\obj\Debug\netcoreapp3.1\ManagerL.73C23B7D.Up2Date
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\ManagerLayer\obj\Debug\netcoreapp3.1\ManagerLayer.sourcelink.json
