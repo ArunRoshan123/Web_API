@@ -6,6 +6,7 @@ using System.Text;
 using BC=BCrypt.Net.BCrypt;
 namespace RepositoryLayer.Services
 {
+    // Bcrypt Encryption 
     public class Encryption
     {
         public string GenerateHashedPassword(string input) 

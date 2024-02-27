@@ -75,6 +75,7 @@ namespace RepositoryLayer.Services
             }
         }
 
+        // JWT 
         private string GenerateToken(string Email, long userId)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]));
