@@ -7,3 +7,4 @@ C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netc
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.CoreCompileInputs.cache
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.dll
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.pdb
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.sourcelink.json

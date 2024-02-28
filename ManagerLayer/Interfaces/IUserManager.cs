@@ -10,5 +10,14 @@ namespace ManagerLayer.Interfaces
     {
         public UserEntity UserRegisteration(RegisterModel model);
         public string UserLogin(LoginModel model);
+
+        public string ForgotPassword(string userEmail);
+
+        public bool CheckEmail(string  userEmail);
+
+        public string GenerateToken(string userEmail, int userId);
+
+        public bool UResetPassword(string Email, ResetPasswordModel model);
     }
+
 }

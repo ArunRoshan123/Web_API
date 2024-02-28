@@ -76,13 +76,13 @@ namespace RepositoryLayer.Services
         }
 
         // JWT 
-        private string GenerateToken(string Email, long userId)
+        public string GenerateToken(string userEmail, int userId)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             var claims = new[]
             {
-                new Claim("email",Email),
+                new Claim("email",userEmail),
                 new Claim("userId",userId.ToString())
             };
             var token = new JwtSecurityToken(config["Jwt:Issuer"],
@@ -93,7 +93,45 @@ namespace RepositoryLayer.Services
 
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+        public string ForgotPassword(string email)
+        {
+            var user = context.UserTable.FirstOrDefault(a => a.userEmail == email);
+            if (user != null)
+            {
+                var token = GenerateToken(user.userEmail, user.userId);
+                return token;
+            }
+            else
+            {
+                return null;
+            }
+        }
 
+        public bool CheckEmail(string userEmail)
+        {
+            return context.UserTable.Any(x => x.userEmail == userEmail);
+        }
+        public bool UResetPassword(string Email, ResetPasswordModel model)
+        {
+            UserEntity User = context.UserTable.ToList().Find(User => User.userEmail == Email);
+            
+            if(User != null)
+            {
+                User.userPassword = GenerateHashedPassword(model.newPassword);
+               // User.ChangedAt = DateTime.Now;
+                context.SaveChanges();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        private string GenerateHashedPassword(object confirmPassword)
+        {
+            throw new NotImplementedException();
         }
     }
 }

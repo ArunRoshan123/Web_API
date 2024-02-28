@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
-
+using UserEntity = RepositoryLayer.Entity.UserEntity;
 namespace ManagerLayer.Services
 {
     public class UserManager:IUserManager
@@ -25,5 +25,22 @@ namespace ManagerLayer.Services
         {
             return repository.UserLogin(model);
         }
+        public string ForgotPassword(string userEmail)
+        {
+            return repository.ForgotPassword(userEmail);
+        }
+        public string GenerateToken(string userEmail, int userId)
+        {
+            return repository.GenerateToken(userEmail, userId);
+        }
+        public bool UResetPassword(string Email, ResetPasswordModel model)
+        {
+            return repository.UResetPassword(Email, model);
+        }
+        public bool CheckEmail(string userEmail)
+        {
+            return repository.CheckEmail(userEmail);
+        }
+
     }
 }
