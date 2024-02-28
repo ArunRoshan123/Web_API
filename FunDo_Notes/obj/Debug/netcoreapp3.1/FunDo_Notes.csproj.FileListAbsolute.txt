@@ -64,3 +64,13 @@ C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netc
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\obj\Debug\netcoreapp3.1\FunDo_Notes.sourcelink.json
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\Automatonymous.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\GreenPipes.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\MassTransit.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\MassTransit.AspNetCoreIntegration.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\MassTransit.RabbitMqTransport.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\NewId.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
