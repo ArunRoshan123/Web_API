@@ -94,6 +94,8 @@ namespace RepositoryLayer.Services
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+        // ForgotPassword
         public string ForgotPassword(string email)
         {
             var user = context.UserTable.FirstOrDefault(a => a.userEmail == email);
