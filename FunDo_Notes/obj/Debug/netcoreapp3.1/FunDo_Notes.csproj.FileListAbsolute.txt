@@ -74,3 +74,4 @@ C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netc
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\NewId.dll
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\srira\OneDrive\Desktop\Locobuzz_Training.Net\FunDo_Notes\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll

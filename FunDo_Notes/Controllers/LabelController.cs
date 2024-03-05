@@ -25,7 +25,7 @@ namespace FunDo_Notes.Controllers
         [HttpPost]
         [Route("add")]
 
-        public ActionResult Add(int NoteID, AddLabel model)
+        public ActionResult Add(int NoteID, AddModel model)
         {
             try
             {
@@ -70,5 +70,51 @@ namespace FunDo_Notes.Controllers
             }
         }
 
+        [Authorize]
+        [HttpPut]
+        [Route("update")]
+
+        public ActionResult UpdateLabel(int NoteId, AddModel model)
+        {
+            var response = manager.UpdateLabel(NoteId, model);
+            try
+            {
+                if (response != null)
+                {
+                    return Ok(new ResModel<UserLabelEntity> { Success = true, Message = "Update Success", Data = response });
+                }
+                else
+                {
+                    return BadRequest(new ResModel<UserLabelEntity> { Success = false, Message = "Update Failure", Data = response });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ResModel<UserLabelEntity> { Success= false, Message = ex.Message,Data = null});
+            }
+        }
+
+        [Authorize]
+        [HttpDelete]
+        [Route("delete")]
+        public ActionResult DeleteLabel(int NoteId)
+        {
+            var response = manager.DeleteLabel(NoteId);
+            try
+            {
+                if (response != null)
+                {
+                    return Ok(new ResModel<UserLabelEntity> { Success = true, Message = "Delete Success", Data = response });
+                }
+                else
+                {
+                    return BadRequest(new ResModel<UserLabelEntity> { Success = false, Message = "Delete Failure", Data = response });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ResModel<UserLabelEntity> { Success = false, Message = ex.Message, Data = null });
+            }
+        }
     }
 }

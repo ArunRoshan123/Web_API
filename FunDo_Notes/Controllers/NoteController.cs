@@ -167,6 +167,22 @@ namespace FunDo_Notes.Controllers
                 return BadRequest(new ResModel<NoteEntity> { Success = false, Message = "Archive failure", Data = response });
             }
         }
+
+        [Authorize]
+        [HttpPut]
+        [Route("image")]
+        public ActionResult UploadImage(int NotesId, string image)
+        {
+            var response = manager.ImageNotes(image,NotesId);
+            if (response != null)
+            {
+                return Ok(new ResModel<NoteEntity> { Success = true, Message = "image uploded", Data = response });
+            }
+            else
+            {
+                return BadRequest(new ResModel<NoteEntity> { Success = false, Message = "image upload failed", Data = response });
+            }
+        }
     }
 }
 

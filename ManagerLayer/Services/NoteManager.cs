@@ -48,5 +48,9 @@ namespace ManagerLayer.Services
         {
             return repository.ArchiveNotes(NotesId);
         }
+        public NoteEntity ImageNotes(string image, int NoteId)
+        {
+            return repository.ImageNotes(image, NoteId);
+        }
     }
 }

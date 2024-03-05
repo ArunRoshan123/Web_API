@@ -19,6 +19,34 @@ namespace RepositoryLayer.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("RepositoryLayer.Entity.ColabEntity", b =>
+                {
+                    b.Property<int>("ColabId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ColabEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("ColabTrash")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("NotesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("userId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ColabId");
+
+                    b.HasIndex("NotesId");
+
+                    b.HasIndex("userId");
+
+                    b.ToTable("ColabTable");
+                });
+
             modelBuilder.Entity("RepositoryLayer.Entity.DemoEntity", b =>
                 {
                     b.Property<int>("demoId")
@@ -135,6 +163,21 @@ namespace RepositoryLayer.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("LabelTable");
+                });
+
+            modelBuilder.Entity("RepositoryLayer.Entity.ColabEntity", b =>
+                {
+                    b.HasOne("RepositoryLayer.Entity.NoteEntity", "NoteEntity")
+                        .WithMany()
+                        .HasForeignKey("NotesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RepositoryLayer.Entity.UserEntity", "NoteUser")
+                        .WithMany()
+                        .HasForeignKey("userId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("RepositoryLayer.Entity.NoteEntity", b =>
