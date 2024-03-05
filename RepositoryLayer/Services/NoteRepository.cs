@@ -1,4 +1,6 @@
-﻿using CommonLayer.RequestModels;
+﻿using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
+using CommonLayer.RequestModels;
 using Microsoft.Extensions.Configuration;
 using RepositoryLayer.Context;
 using RepositoryLayer.Entity;
@@ -134,6 +136,28 @@ namespace RepositoryLayer.Services
             {
                 return null;
             }
+        }
+        public NoteEntity ImageNotes(string image, int NoteId)
+        {
+            var entity = context.NoteTable.FirstOrDefault(x => x.NotesId == NoteId);
+
+            Account account = new Account(
+            "dhn23u0if",
+            "499666846213952",
+            "T5DB2esv_Wy2CluIu6J85_96jyI");
+            Cloudinary cloudinary = new Cloudinary(account);
+
+            var uploadParams = new ImageUploadParams()
+            {
+                File = new FileDescription(image),
+                PublicId = entity.Title,
+            };
+            var uploadResult = cloudinary.Upload(uploadParams);
+
+            entity.Image = uploadResult.Url.ToString();
+            //context.Update(entity);
+            context.SaveChanges();
+            return entity;
         }
     }
 }

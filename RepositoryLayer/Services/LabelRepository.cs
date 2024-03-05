@@ -17,7 +17,7 @@ namespace RepositoryLayer.Services
             this.context = context;
         }
 
-        public UserLabelEntity AddLabel(int UserID, int NoteID, AddLabel model)
+        public UserLabelEntity AddLabel(int UserID, int NoteID, AddModel model)
         {
             var add = context.LabelTable.FirstOrDefault(l => ((l.UserId == UserID) && (l.NotesId == NoteID) && (!string.IsNullOrEmpty(l.LabelName))));
             if (add == null)
@@ -41,5 +41,40 @@ namespace RepositoryLayer.Services
             List<UserLabelEntity>entity = context.LabelTable.Where(x => x.UserId == id).ToList();
             return entity;
         }
+
+        public UserLabelEntity UpdateLabel(int NoteId,  AddModel model)
+        {
+            var entity = context.LabelTable.FirstOrDefault(x => x.NotesId == NoteId);
+            if(entity != null) 
+            {
+                entity.LabelName = model.LabelName;
+                context.SaveChanges();
+                return entity;
+            }
+            else
+            {
+                throw new Exception("Label not found");
+            }
+        }
+
+        public UserLabelEntity DeleteLabel(int NoteId)
+        {
+            var entity = context.LabelTable.FirstOrDefault(x => x.NotesId == NoteId);
+
+            if(entity != null)
+            {
+                context.LabelTable.Remove(entity);
+                context.SaveChanges();
+                return entity;
+            }
+            else
+            {
+                throw new Exception("Label not found");
+            }
+        }
+
+        // Collab 
+
+
     }
 }
