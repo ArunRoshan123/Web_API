@@ -17,7 +17,7 @@ namespace ManagerLayer.Services
             this.repository = repository;
         }
 
-        public UserLabelEntity AddLabel(int UserID, int NoteID, AddLabel model)
+        public UserLabelEntity AddLabel(int UserID, int NoteID, AddModel model)
         {
             return repository.AddLabel(UserID, NoteID, model);
         }
@@ -25,6 +25,14 @@ namespace ManagerLayer.Services
         public List<UserLabelEntity> ReadLabel(int id)
         {
             return repository.ReadLabel(id);
+        }
+        public UserLabelEntity UpdateLabel(int NoteId, AddModel model)
+        {
+            return repository.UpdateLabel(NoteId, model);
+        }
+        public UserLabelEntity DeleteLabel(int NoteId)
+        {
+            return repository.DeleteLabel(NoteId);
         }
     }
 }

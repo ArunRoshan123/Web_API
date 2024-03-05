@@ -16,6 +16,7 @@ namespace ManagerLayer.Interfaces
         public NoteEntity NotesReminder(int NotesId);
         public NoteEntity PinNotes(int NotesId);
         public NoteEntity ArchiveNotes(int NotesId);
+        public NoteEntity ImageNotes(string image, int NoteId);
 
     }
 }
