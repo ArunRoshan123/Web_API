@@ -3,52 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\FunDo_Notes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBFF0CB0-6134-4357-8EDB-550BC55F885B}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\repositorylayer\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFF0CB0-6134-4357-8EDB-550BC55F885B}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\repositorylayer\\services\\labelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DE58C44-74A9-43AD-9C23-247BA75055DA}|FunDo_Notes.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\fundo_notes\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE58C44-74A9-43AD-9C23-247BA75055DA}|FunDo_Notes.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DE58C44-74A9-43AD-9C23-247BA75055DA}|FunDo_Notes.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\fundo_notes\\controllers\\labelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE58C44-74A9-43AD-9C23-247BA75055DA}|FunDo_Notes.csproj|solutionrelative:controllers\\labelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFF0CB0-6134-4357-8EDB-550BC55F885B}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\repositorylayer\\entity\\productentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EC9D36-08B0-4F4A-AE00-9FA1559D0AA2}|..\\ManagerLayer\\ManagerLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\managerlayer\\interfaces\\ilabelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFF0CB0-6134-4357-8EDB-550BC55F885B}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\repositorylayer\\context\\funnotecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EC9D36-08B0-4F4A-AE00-9FA1559D0AA2}|..\\ManagerLayer\\ManagerLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\managerlayer\\services\\labelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DE58C44-74A9-43AD-9C23-247BA75055DA}|FunDo_Notes.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\fundo_notes\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE58C44-74A9-43AD-9C23-247BA75055DA}|FunDo_Notes.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFF0CB0-6134-4357-8EDB-550BC55F885B}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\repositorylayer\\interfaces\\ilabelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBFF0CB0-6134-4357-8EDB-550BC55F885B}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\repositorylayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EC9D36-08B0-4F4A-AE00-9FA1559D0AA2}|..\\ManagerLayer\\ManagerLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\managerlayer\\services\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EC9D36-08B0-4F4A-AE00-9FA1559D0AA2}|..\\ManagerLayer\\ManagerLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\managerlayer\\interfaces\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFF0CB0-6134-4357-8EDB-550BC55F885B}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\repositorylayer\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFF0CB0-6134-4357-8EDB-550BC55F885B}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\repositorylayer\\entity\\noteentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE58C44-74A9-43AD-9C23-247BA75055DA}|FunDo_Notes.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\fundo_notes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9DE58C44-74A9-43AD-9C23-247BA75055DA}|FunDo_Notes.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EF5F64-D645-4221-BA0F-6A3DE095E80A}|..\\CommonLayer\\CommonLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\commonlayer\\requestmodels\\forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBFF0CB0-6134-4357-8EDB-550BC55F885B}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\repositorylayer\\services\\encryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EF5F64-D645-4221-BA0F-6A3DE095E80A}|..\\CommonLayer\\CommonLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\commonlayer\\requestmodels\\send.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3EF5F64-D645-4221-BA0F-6A3DE095E80A}|..\\CommonLayer\\CommonLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\commonlayer\\requestmodels\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBFF0CB0-6134-4357-8EDB-550BC55F885B}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\srira\\onedrive\\desktop\\locobuzz_training.net\\repositorylayer\\entity\\userlabelentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,189 +28,99 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "DockedHeight": 228,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductEntity.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Entity\\ProductEntity.cs",
-              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Entity\\ProductEntity.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Entity\\ProductEntity.cs",
-              "RelativeToolTip": "..\\RepositoryLayer\\Entity\\ProductEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "DocumentIndex": 5,
+              "Title": "UserLabelEntity.cs",
+              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Entity\\UserLabelEntity.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Entity\\UserLabelEntity.cs",
+              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Entity\\UserLabelEntity.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Entity\\UserLabelEntity.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T05:13:00.311Z"
+              "WhenOpened": "2024-03-05T06:11:46.573Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\FunDo_Notes\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\FunDo_Notes\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAwwBwAAAASAAAA",
+              "Title": "LabelController.cs",
+              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\FunDo_Notes\\Controllers\\LabelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LabelController.cs",
+              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\FunDo_Notes\\Controllers\\LabelController.cs",
+              "RelativeToolTip": "Controllers\\LabelController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAUwDYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T07:11:56.955Z"
+              "WhenOpened": "2024-03-04T11:54:40.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ILabelManager.cs",
+              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\ManagerLayer\\Interfaces\\ILabelManager.cs",
+              "RelativeDocumentMoniker": "..\\ManagerLayer\\Interfaces\\ILabelManager.cs",
+              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\ManagerLayer\\Interfaces\\ILabelManager.cs",
+              "RelativeToolTip": "..\\ManagerLayer\\Interfaces\\ILabelManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T12:01:28.779Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FunNoteContext.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Context\\FunNoteContext.cs",
-              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Context\\FunNoteContext.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Context\\FunNoteContext.cs",
-              "RelativeToolTip": "..\\RepositoryLayer\\Context\\FunNoteContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAFAAAA",
+              "Title": "LabelManager.cs",
+              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\ManagerLayer\\Services\\LabelManager.cs",
+              "RelativeDocumentMoniker": "..\\ManagerLayer\\Services\\LabelManager.cs",
+              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\ManagerLayer\\Services\\LabelManager.cs",
+              "RelativeToolTip": "..\\ManagerLayer\\Services\\LabelManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T05:25:58.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\ManagerLayer\\Services\\UserManager.cs",
-              "RelativeDocumentMoniker": "..\\ManagerLayer\\Services\\UserManager.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\ManagerLayer\\Services\\UserManager.cs",
-              "RelativeToolTip": "..\\ManagerLayer\\Services\\UserManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T04:40:51.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Services\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Services\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Services\\UserRepository.cs",
-              "RelativeToolTip": "..\\RepositoryLayer\\Services\\UserRepository.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAkwGEAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T10:32:03.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "..\\RepositoryLayer\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T04:53:35.717Z"
+              "WhenOpened": "2024-03-04T11:56:21.856Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\FunDo_Notes\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\FunDo_Notes\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAswHUAAAAhAAAA",
+              "Title": "ILabelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Interfaces\\ILabelRepository.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Interfaces\\ILabelRepository.cs",
+              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Interfaces\\ILabelRepository.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Interfaces\\ILabelRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T04:20:26.283Z"
+              "WhenOpened": "2024-03-05T06:06:19.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserManager.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\ManagerLayer\\Interfaces\\IUserManager.cs",
-              "RelativeDocumentMoniker": "..\\ManagerLayer\\Interfaces\\IUserManager.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\ManagerLayer\\Interfaces\\IUserManager.cs",
-              "RelativeToolTip": "..\\ManagerLayer\\Interfaces\\IUserManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAYwAoAAAA5AAAA",
+              "DocumentIndex": 0,
+              "Title": "LabelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Services\\LabelRepository.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Services\\LabelRepository.cs",
+              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Services\\LabelRepository.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Services\\LabelRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T04:32:29.343Z"
+              "WhenOpened": "2024-03-04T11:56:57.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 269,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Entity\\UserEntity.cs",
-              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Entity\\UserEntity.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Entity\\UserEntity.cs",
-              "RelativeToolTip": "..\\RepositoryLayer\\Entity\\UserEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T05:13:36.065Z"
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\FunDo_Notes\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\FunDo_Notes\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-27T11:09:57.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NoteEntity.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Entity\\NoteEntity.cs",
-              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Entity\\NoteEntity.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Entity\\NoteEntity.cs",
-              "RelativeToolTip": "..\\RepositoryLayer\\Entity\\NoteEntity.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBMAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T09:50:20.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ForgotPassword.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\CommonLayer\\RequestModels\\ForgotPassword.cs",
-              "RelativeDocumentMoniker": "..\\CommonLayer\\RequestModels\\ForgotPassword.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\CommonLayer\\RequestModels\\ForgotPassword.cs",
-              "RelativeToolTip": "..\\CommonLayer\\RequestModels\\ForgotPassword.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T04:26:26.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Encryption.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Services\\Encryption.cs",
-              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Services\\Encryption.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\RepositoryLayer\\Services\\Encryption.cs",
-              "RelativeToolTip": "..\\RepositoryLayer\\Services\\Encryption.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T11:59:53.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Send.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\CommonLayer\\RequestModels\\Send.cs",
-              "RelativeDocumentMoniker": "..\\CommonLayer\\RequestModels\\Send.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\CommonLayer\\RequestModels\\Send.cs",
-              "RelativeToolTip": "..\\CommonLayer\\RequestModels\\Send.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T04:29:03.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ResetPasswordModel.cs",
-              "DocumentMoniker": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\CommonLayer\\RequestModels\\ResetPasswordModel.cs",
-              "RelativeDocumentMoniker": "..\\CommonLayer\\RequestModels\\ResetPasswordModel.cs",
-              "ToolTip": "C:\\Users\\srira\\OneDrive\\Desktop\\Locobuzz_Training.Net\\CommonLayer\\RequestModels\\ResetPasswordModel.cs",
-              "RelativeToolTip": "..\\CommonLayer\\RequestModels\\ResetPasswordModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T05:23:23.221Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

@@ -13,7 +13,7 @@ namespace RepositoryLayer.Interfaces
         public string ForgotPassword(string userEmail);
         public string GenerateToken(string userEmail, int userId);
         public bool CheckEmail(string userEmail);
-
         public bool UResetPassword(string Email, ResetPasswordModel model);
+
     }
 }

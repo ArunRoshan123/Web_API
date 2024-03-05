@@ -102,13 +102,11 @@ namespace FunDo_Notes.Controllers
             }
         }
 
-
         [HttpPost]
         [Authorize]
         [Route("ResetPassword")]
         public ActionResult ResetPassword(ResetPasswordModel reset)
         {
-
             string Email = User.FindFirst("Email").Value;
             if (userManager.UResetPassword(Email, reset))
             {
@@ -117,9 +115,7 @@ namespace FunDo_Notes.Controllers
             else
             {
                 return BadRequest(new ResModel<bool> { Success = false, Message = "Password is not changed", Data = false });
-
             }
-
         }
     }
     
