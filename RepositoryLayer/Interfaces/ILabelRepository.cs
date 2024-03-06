@@ -12,5 +12,7 @@ namespace RepositoryLayer.Interfaces
         public List<UserLabelEntity> ReadLabel(int id);
         public UserLabelEntity UpdateLabel(int NoteId, AddModel model);
         public UserLabelEntity DeleteLabel(int NoteId);
+        public ColabEntity AddCollab(int NoteId, string Email, int UserId);
+        public ColabEntity DeleteCollab(int CollabId);
     }
 }
