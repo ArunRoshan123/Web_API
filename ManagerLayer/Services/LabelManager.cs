@@ -34,5 +34,13 @@ namespace ManagerLayer.Services
         {
             return repository.DeleteLabel(NoteId);
         }
+        public ColabEntity AddCollab(int NoteId, string Email, int UserId)
+        {
+            return repository.AddCollab(NoteId, Email, UserId);
+        }
+        public ColabEntity DeleteCollab(int CollabId)
+        {
+            return repository.DeleteCollab(CollabId);
+        }
     }
 }

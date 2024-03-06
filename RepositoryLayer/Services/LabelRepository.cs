@@ -75,6 +75,40 @@ namespace RepositoryLayer.Services
 
         // Collab 
 
+        public ColabEntity AddCollab(int NoteId,string Email,int UserId)
+        {
+            var collab = context.UserTable.FirstOrDefault(x => x.userEmail == Email);
+            if(collab != null)
+            {
+                ColabEntity entity = new ColabEntity();
+                entity.NotesId = NoteId;
+                entity.ColabEmail= Email;
+                entity.userId = UserId;
+                context.ColabTable.Add(entity);
+                context.SaveChanges();
+                return entity;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public ColabEntity DeleteCollab(int CollabId)
+        {
+            var entity = context.ColabTable.FirstOrDefault(x => x.ColabId == CollabId);
+
+            if (entity != null)
+            {
+                context.ColabTable.Remove(entity);
+                context.SaveChanges();
+                return entity;
+            }
+            else
+            {
+                throw new Exception("collab not found");
+            }
+        }
 
     }
 }

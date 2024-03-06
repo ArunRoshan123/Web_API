@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using RepositoryLayer.Context;
 using RepositoryLayer.Entity;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -117,6 +118,52 @@ namespace FunDo_Notes.Controllers
                 return BadRequest(new ResModel<bool> { Success = false, Message = "Password is not changed", Data = false });
             }
         }
+
+        [HttpPut]
+        [Route("edit_name")]
+        public ActionResult Editname(int usersId, UpdateModel model)
+        {
+            var response = userManager.EditName(usersId, model);
+            try
+            {
+                if (response != null)
+                {
+                    return Ok(new ResModel<UserEntity> { Success = true, Message = "Update Success", Data = response });
+                }
+                else
+                {
+                    return BadRequest(new ResModel<UserEntity> { Success = false, Message = "Edit Failure", Data = response });
+                }
+            }
+            catch (Exception e) 
+            {
+                return BadRequest(new ResModel<UserEntity> { Success = false, Message = e.Message , Data = null });
+            }
+        }
+
+        [HttpGet]
+        [Route("user_details")]
+        public ActionResult Searchuser(string name)
+        {
+            try
+            {
+                List<UserEntity> response = userManager.SearchUser(name);
+                if (response != null)
+                {
+                    return Ok(new ResModel<List<UserEntity>> { Success = true, Message = "Display Success", Data = response });
+                }
+                else
+                {
+                    return BadRequest(new ResModel<List<UserEntity>> { Success = false, Message = "Display Failure", Data = response });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ResModel<List<UserEntity>> { Success = false, Message = ex.Message, Data = null });
+            }
+        }
+
     }
+    
     
 }

@@ -18,6 +18,9 @@ namespace ManagerLayer.Interfaces
         public string GenerateToken(string userEmail, int userId);
 
         public bool UResetPassword(string Email, ResetPasswordModel model);
+        public UserEntity EditName(int usersId, UpdateModel model);
+        public List<UserEntity> SearchUser(string name);
+        public int CountUser(int user);
     }
 
 }

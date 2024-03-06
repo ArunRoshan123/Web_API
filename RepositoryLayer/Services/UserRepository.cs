@@ -135,5 +135,27 @@ namespace RepositoryLayer.Services
         {
             throw new NotImplementedException();
         }
+
+        // review
+        public UserEntity EditName(int usersId, UpdateModel model)
+        {
+            var name = context.UserTable.FirstOrDefault(x => x.userId == usersId);
+            if (name != null)
+            {
+                name.fName = model.fname;
+                name.lName = model.lname;
+                context.SaveChanges();
+            }
+            return name;
+        }
+
+        public List<UserEntity> SearchUser(string name)
+        {
+            return context.UserTable.Where(x => x.fName == name).ToList();
+        }
+        public int CountUser(int user) 
+        {
+            return context.UserTable.Count();
+        }
     }
 }
