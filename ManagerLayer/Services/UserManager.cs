@@ -41,6 +41,17 @@ namespace ManagerLayer.Services
         {
             return repository.CheckEmail(userEmail);
         }
-
+        public UserEntity EditName(int usersId, UpdateModel model)
+        {
+            return repository.EditName(usersId, model);
+        }
+        public List<UserEntity> SearchUser(string name)
+        {
+            return repository.SearchUser(name);
+        }
+        public int CountUser(int user)
+        {
+            return repository.CountUser(user);
+        }
     }
 }
